@@ -1,38 +1,67 @@
-# Learning C++ — small practice projects
+...existing code...
+# Learning C++ — Small, Focused Practice Projects
 
-This workspace contains small, self-contained C++ programs used while learning core C++ concepts (I/O, arrays, functions, control flow, simple algorithms).
+This workspace is a personal learning playground for core C++ concepts: console I/O, control flow, arrays/vectors, functions, simple algorithms, and small game AI. Each source file is intentionally small so you can iterate quickly: add a feature, compile, run, refactor.
 
-Why these projects
-- banking.cpp: practice functions, passing/returning values, simple state.
-- quiz.cpp: practice arrays of strings, nested loops, basic user input and scoring.
-- RPS.cpp: practice randomness, input validation, and modular functions.
-- sort.cpp: practice algorithms (bubble sort) and array manipulation.
+Files (quick overview)
+- banking.cpp — menu-driven banking demo (state, functions).
+- quiz.cpp — multiple-choice quiz (arrays of strings, loops, scoring).
+- RPS.cpp — Rock-Paper-Scissors console game (randomness, input validation).
+- sort.cpp — bubble-sort demo with step tracing.
+- search.cpp — simple search example / utility.
+- tictactoe.cpp — console Tic‑Tac‑Toe with Minimax AI (player vs computer).
+- creditcardvalidation.cpp — credit card validation (Luhn algorithm + basic parsing / card-type hints).
+- Compiled artifacts may be present in the workspace (binaries): banking, quiz, RPS, sort, search, tictactoe, creditcardvalidation
 
-Build and run
-- Compile a single file:
+Build (macOS / Linux)
+- Compile an individual source file with C++17:
   - g++ -std=c++17 banking.cpp -o banking
   - g++ -std=c++17 quiz.cpp -o quiz
   - g++ -std=c++17 RPS.cpp -o RPS
   - g++ -std=c++17 sort.cpp -o sort
-- Run:
-  - ./banking
-  - ./quiz
-  - ./RPS
-  - ./sort
+  - g++ -std=c++17 search.cpp -o search
+  - g++ -std=c++17 tictactoe.cpp -o tictactoe
+  - g++ -std=c++17 creditcardvalidation.cpp -o creditcardvalidation
 
-Tips for extending these exercises
-- Add input validation and error handling (check std::cin after reads).
-- Move repeated logic into helper functions and headers.
-- Replace C-style arrays with std::vector or std::array.
-- Add unit tests for pure functions (sorting, win-logic).
-- Instrument code with comments explaining each step.
+Run
+- ./banking
+- ./quiz
+- ./RPS
+- ./sort
+- ./search
+- ./tictactoe
+- ./creditcardvalidation
 
-Where to look in this workspace
-- [banking.cpp](banking.cpp)
-- [quiz.cpp](quiz.cpp)
-- [RPS.cpp](RPS.cpp)
-- [sort.cpp](sort.cpp)
-- [search.cpp](search.cpp)
-- Binary/artifact files (may be non-text): [banking](banking), [quiz](quiz), [RPS](RPS), [search](search), [sort](sort)
+This workspace is a personal learning playground for core C++ concepts: console I/O, control flow, arrays/vectors, functions, simple algorithms, and small game AI. Each source file is intentionally small so you can iterate quickly: add a feature, compile, run, refactor.
 
-Keep iterating: pick one file, add a small feature, compile, run, then read and refactor. Good progress comes from many small, focused experiments.
+Files (quick overview)
+- banking.cpp — menu-driven banking demo (state, functions).
+- quiz.cpp — multiple-choice quiz (arrays of strings, loops, scoring).
+- RPS.cpp — Rock-Paper-Scissors console game (randomness, input validation).
+- sort.cpp — bubble-sort demo with step tracing.
+- search.cpp — simple search example / utility.
+- tictactoe.cpp — console Tic‑Tac‑Toe with Minimax AI (player vs computer).
+- creditcardvalidation.cpp — credit card validation (Luhn algorithm + basic parsing / card-type hints).
+- Compiled artifacts may be present in the workspace (binaries): banking, quiz, RPS, sort, search, tictactoe, creditcardvalidation
+
+Build (macOS / Linux)
+- Compile an individual source file with C++17:
+  - g++ -std=c++17 banking.cpp -o banking
+  - g++ -std=c++17 quiz.cpp -o quiz
+  - g++ -std=c++17 RPS.cpp -o RPS
+  - g++ -std=c++17 sort.cpp -o sort
+  - g++ -std=c++17 search.cpp -o search
+  - g++ -std=c++17 tictactoe.cpp -o tictactoe
+  - g++ -std=c++17 creditcardvalidation.cpp -o creditcardvalidation
+
+Run
+- ./banking
+- ./quiz
+- ./RPS
+- ./sort
+- ./search
+- ./tictactoe
+- ./creditcardvalidation
+
+License
+- Personal learning repo — no license specified. Add one when you plan to
